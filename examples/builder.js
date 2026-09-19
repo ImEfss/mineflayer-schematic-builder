@@ -7,7 +7,7 @@ const mineflayer = require('mineflayer')
 const mineflayerViewer = require('prismarine-viewer').mineflayer
 
 const bot = mineflayer.createBot({
-  host: process.argv[2] || 'localhost',
+  host: process.argv[2] || 'ImEfs.lunarclient.world',
   port: parseInt(process.argv[3]) || 25565,
   username: process.argv[4] || 'builder',
   password: process.argv[5]
